@@ -2,7 +2,7 @@ function render (){
 	console.log('clicked');
 
 	var ourRequest = new XMLHttpRequest();
-	ourRequest.open('GET', 'my.json');
+	ourRequest.open('GET', 'https://github.com/armekh/test2/blob/master/my.json');
 
 	ourRequest.onload = function(){
 		var ourData = JSON.parse(ourRequest.responseText);
